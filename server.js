@@ -15,7 +15,7 @@ app.use(cors());
 const RentHouse = require('./model/rent-house');
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/rent-houses').then(() => {
+mongoose.connect('mongodb+srv://ciilanesalaad482561:njnh tbwn jlva jkwn@real-estate.8symdj0.mongodb.net/?retryWrites=true&w=majority&appName=real-estate/rent-houses').then(() => {
   console.log('Connected to MongoDB');
 }).catch((error) => {
   console.log(error);
